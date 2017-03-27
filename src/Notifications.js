@@ -1,8 +1,7 @@
-import React, {PropTypes, Component} from 'react';
-import {connect} from 'react-redux';
-import ReactNotification from 'react-notification';
-
-import { removeNotification } from './actions';
+import React, {PropTypes, Component} from 'react'
+import {connect} from 'react-redux'
+import ReactNotification from 'react-notification'
+import { removeNotification } from './actions'
 
 
 class ReduxNotification extends Component {
@@ -50,7 +49,7 @@ const mapStateToProps = (state) => {
     const { notifications } = state;
 
     return {
-        notifications
+        notifications: notifications.get('list')
     }
 };
 
