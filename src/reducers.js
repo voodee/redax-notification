@@ -1,5 +1,5 @@
-import {SHOW_NOTIFICATION, REMOVE_NOTIFICATION} from './constants';
-import { defaultValue } from 'react-notification/src/constants';
+import {SHOW_NOTIFICATION, REMOVE_NOTIFICATION} from './constants'
+import { defaultValue } from 'react-notification/lib/constants'
 import { List, Map } from 'immutable'
 
 const defaultState = new Map({
