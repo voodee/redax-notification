@@ -1,8 +1,8 @@
 {
   "name": "redux-notification",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple Redux notification",
-  "main": "dist/react-notification.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "voodee/react-notification"
