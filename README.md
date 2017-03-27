@@ -1,11 +1,11 @@
 # Redux notification
 
-Wraps [react-notifications](https://github.com/voodee/react-notifications) into a component and exposes actions and reducer.
+Wraps [react-notification](https://github.com/voodee/react-notification) into a component and exposes actions and reducer.
 
 ## Installing
 This component is available as CommonJS and UMD module. Install via NPM running:
 
-`npm i https://github.com/voodee/redux-notifications/tarball/master --save`
+`npm i https://github.com/voodee/redux-notification/tarball/master --save`
 
 ## Using
 ##### 1. You need to do is to add the redux-notifications reducer to Redux.
@@ -21,7 +21,7 @@ export default combineReducers({
 #### 2. Add the Notifs component at the root of your app
 ```js
 import { Provider }  from 'react-redux'
-import { Notifications } from 'redux-notifications';
+import { Notifications } from 'redux-notification';
 
 <Provider store={store}>
   <div>
@@ -33,7 +33,7 @@ import { Notifications } from 'redux-notifications';
 
 #### 3. Sending notifications
 ```js
-import { showNotification } from 'redux-notifications'
+import { showNotification } from 'redux-notification'
 
 class Demo extends React.Component {
   send() {
