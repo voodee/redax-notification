@@ -5,7 +5,7 @@ Wraps [react-notifications](https://github.com/voodee/react-notifications) into 
 ## Installing
 This component is available as CommonJS and UMD module. Install via NPM running:
 
-`npm i https://github.com/voodee/redux-notification/tarball/master --save`
+`npm i https://github.com/voodee/redax-notifications/tarball/master --save`
 
 ## Using
 ##### 1. You need to do is to add the redux-notifications reducer to Redux.
