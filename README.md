@@ -1,5 +1,7 @@
 # Redux notification
 
+Wraps [react-notification](https://github.com/voodee/react-notification) into a component and exposes actions and reducer.
+
 ## Installing
 This component is available as CommonJS and UMD module. Install via NPM running:
 
